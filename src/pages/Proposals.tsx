@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -437,7 +436,7 @@ export default function Proposals() {
                   <li>Create a proposal with clear goals and implementation plans</li>
                   <li>Community discussion period of 3 days</li>
                   <li>Voting period of 5 days</li>
-                  <li>Proposal passes with >60% approval and quorum of 10% total tokens</li>
+                  <li>Proposal passes with {'>'}60% approval and quorum of 10% total tokens</li>
                   <li>Implementation by the Kanpur DAO team or community members</li>
                 </ol>
               </div>
